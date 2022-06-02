@@ -14,7 +14,7 @@ composer require hzdad/codecheck
 
 ## 配置
 config/plugin/hzdad/codecheck/app.php
-
+~~~php
 return [
     'enable' => true,
     'expire' => 300,//过期时间
@@ -22,6 +22,7 @@ return [
     'chcktimes' => 3,//最多可以尝试次数
     'delafterok' => true,//验证后从缓存删除
 ];
+~~~php
 
 ## 使用示例
 
