@@ -8,15 +8,15 @@ For webman, create a SMS verification code and verify
 * 灵活的配置机制
 
 ## 安装
-~~~php
+~~~
 composer require hzdad/codecheck
-~~~php
+~~~
 
 
 ## 配置
 config/plugin/hzdad/codecheck/app.php
 
-~~~php
+~~~
 return [
     'enable' => true,
     'expire' => 300,//过期时间
@@ -24,12 +24,12 @@ return [
     'chcktimes' => 3,//最多可以尝试次数
     'delafterok' => true,//验证后从缓存删除
 ];
-~~~php
+~~~
 
 
 ## 使用示例
 
-~~~php
+~~~
     public function createCode()
     {
         $checksms = new \Hzdad\Codecheck\Codecheck();
@@ -49,7 +49,7 @@ return [
         }
         echo $msg;
     }
-~~~php
+~~~
 
 
 ## 版权信息
