@@ -10,7 +10,7 @@ For webman, create a SMS verification code and verify
 ## 安装
 ~~~php
 composer require hzdad/codecheck
-~~~
+~~~php
 
 ## 配置
 config/plugin/hzdad/codecheck/app.php
@@ -46,7 +46,7 @@ return [
         }
         echo $msg;
     }
-~~~
+~~~php
 
 ## 版权信息
 codecheck遵循Apache2开源协议发布，并提供免费使用。
