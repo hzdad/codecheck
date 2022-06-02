@@ -1,0 +1,13 @@
+{
+  "name": "hzdad/codecheck",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin hzdad/codecheck",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Hzdad\\Codecheck\\": "src"
+    }
+  }
+}
